@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/dictionary_search/static/css/main.f966cbfc.css",
+    "main.js": "/dictionary_search/static/js/main.e0419932.js",
+    "static/media/wordsList.txt": "/dictionary_search/static/media/wordsList.06953a79badbe1a027a0.txt",
+    "index.html": "/dictionary_search/index.html",
+    "main.f966cbfc.css.map": "/dictionary_search/static/css/main.f966cbfc.css.map",
+    "main.e0419932.js.map": "/dictionary_search/static/js/main.e0419932.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f966cbfc.css",
+    "static/js/main.e0419932.js"
+  ]
+}
