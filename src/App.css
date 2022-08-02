@@ -1,0 +1,57 @@
+
+
+body {
+    /* background: linear-gradient(to right, #00ff99 0%, #9966ff 100%); */
+    /* background-image: linear-gradient(to right, #f6e4c2, #ffe2cd, #ffe3da, #ffe5e6, #fae9ef, #f9e6f0, #f7e3f2, #f4e1f4, #f5d6f5, #f5cbf6, #f5bff7, #f5b4f8); */
+    background-image: linear-gradient(to right, #fcf1dd, #fde8c4, #fddfac, #fed693, #fecc7b, #fecc7c, #fecd7c, #fecd7d, #fed897, #fee3b1, #ffedcc, #fff7e7);
+    font-size: xx-large;
+    font-family: 'Mukta', sans-serif;
+}
+
+.inputbox {
+    text-align: center;
+    width: fit-content;
+    padding: 5px;
+    margin: 2%;
+    border-radius: 20px;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.not-found-box {
+    text-align: center;
+    background-color: red;
+    padding : 20px;
+    border-radius: 15px;
+}
+
+.title {
+    font-size: 200%;
+}
+
+.loader-parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20%;
+}
+
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    align-self: center;
+}
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); } 
+}
